@@ -8,6 +8,9 @@
 		"ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:1": {},
         "ghcr.io/devcontainers/features/azure-cli:1": {}
 	},
+	"forwardPorts": [
+		8000, 8001
+	],
 	"customizations": {
 		"vscode": {
 			"extensions": [
